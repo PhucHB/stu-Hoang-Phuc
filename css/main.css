@@ -1,0 +1,59 @@
+:root{
+    --text-red: red;
+    --text-gree: rgb(18, 246, 18);
+
+}
+html{
+    font-size: 17px;
+}
+h1{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+}
+header{
+    
+    background-color: black;
+    height: 35%;
+    width: 100%;
+    width: 100%;
+}
+body{
+    
+}
+footer{
+    font-size: 1rem;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+}
+#header-h1{
+color: aliceblue;
+}
+.ol-body{
+    color: var(--text-gree);
+    font-size: 25px;
+}
+.box{
+    width:100vw ;
+    height: 30vw;
+    background-color:rgb(65, 40, 95);
+
+}
+.bbox{
+    width: 60px;
+    height: 60px;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+    
+}
+.b3{
+    padding-top:10px ;
+}
+.menu {
+    text-align: inherit;
+}
