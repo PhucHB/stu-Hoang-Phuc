@@ -12,7 +12,8 @@ h1{
     text-align: center;
 }
 header{
-    background-image: linear-gradient(0, rgba(255,20,0,0.5),rgba(0,255,0,0.5)) , url(https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/306832262_385843343736935_2106706284271334799_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zxD7-4QK128AX_Fznfd&tn=6SEhKop0Trc2z2K-&_nc_ht=scontent.fhan3-3.fna&oh=00_AfAq9yHlqkMVCnqTERETZLy9OLVXbq8fCkh0pO5RN7_4TQ&oe=63623BBC);
+    background-image: linear-gradient(0, rgba(255,20,0,0.5),rgba(0,255,0,0.5)) 
+    , url(https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/306832262_385843343736935_2106706284271334799_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zxD7-4QK128AX_Fznfd&tn=6SEhKop0Trc2z2K-&_nc_ht=scontent.fhan3-3.fna&oh=00_AfAq9yHlqkMVCnqTERETZLy9OLVXbq8fCkh0pO5RN7_4TQ&oe=63623BBC);
     background-size: /*100% 100%*/ cover ;
     /* background-color:#6c757d; */
     height: 700px;
@@ -22,15 +23,23 @@ header{
     background-clip:padding-box ;
     /*liner-gradient(0deg,#333,#ccc)*/background-repeat: no-repeat;
 }
+.logo{
+    background-position:top left 10% ; 
+    height: 10%;
+    width: 10%;
+    
+    
+    
+}
 .py-3 {
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .justify-content-center {
-    justify-content: center!important;
+    justify-content: center;
 }
 .d-flex {
-    display: flex!important;
+    display:flex;
 }
 .nav-pills {
     --bs-nav-pills-border-radius: 0.375rem;
