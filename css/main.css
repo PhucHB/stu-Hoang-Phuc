@@ -13,14 +13,14 @@ h1{
 }
 header{
     background-image: linear-gradient(0, rgba(255,20,0,0.5),rgba(0,255,0,0.5)) , url(https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/306832262_385843343736935_2106706284271334799_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zxD7-4QK128AX_Fznfd&tn=6SEhKop0Trc2z2K-&_nc_ht=scontent.fhan3-3.fna&oh=00_AfAq9yHlqkMVCnqTERETZLy9OLVXbq8fCkh0pO5RN7_4TQ&oe=63623BBC);
-    background-size: 100% 100% ;
+    background-size: /*100% 100%*/ cover ;
     /* background-color:#6c757d; */
     height: 700px;
     width: 100%;
-    box-sizing: border-box;
-    border: 10px dashed #0d6efd;
+    /* box-sizing: border-box;
+    border: 10px dashed #0d6efd; */
     background-clip:padding-box ;
-    /*liner-gradient(0deg,#333,#ccc)*/
+    /*liner-gradient(0deg,#333,#ccc)*/background-repeat: no-repeat;
 }
 .py-3 {
     padding-top: 1rem!important;
